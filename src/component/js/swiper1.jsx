@@ -14,7 +14,7 @@ import slide_image_6 from '../foto/6.jpg';
 import slide_image_7 from '../foto/7.jpg';
 import slide_image_8 from '../foto/8.jpg';
 import slide_image_9 from '../foto/9.jpg';
-import { Swiper, SwiperSlide ,Scrollbar} from 'swiper/react';
+import { Swiper, SwiperSlide} from 'swiper/react';
 
 export default function Swiper1 (){
     return (
@@ -36,8 +36,7 @@ export default function Swiper1 (){
                        delay: 400,
                        disableOnInteraction: false,
                    }}
-                scrollbar={{ draggable: true }}
-                modules={[Autoplay,EffectCoverflow,Scrollbar]}
+                modules={[Autoplay,EffectCoverflow]}
                 className="swiper_container"
             >
                 <SwiperSlide>
