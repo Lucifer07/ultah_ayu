@@ -1,0 +1,10 @@
+.first{
+    background-color: #000;
+    background-size: cover;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
