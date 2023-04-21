@@ -31,8 +31,8 @@ export default function Fire() {
                 ) : (
                     <div className="flex flex-col justify-center items-center h-full">
                             <div className="bg-gray-800 border-t border-gray-600 shadow rounded-lg max-w-lg w-full p-6">
-                                <h4 className='text-white text-2xl'>Selamat Ulang Tahun Sayang</h4>
-                                <p className='text-lg text-gray-400 leading-relaxed'>Cie Yang lagi Ngambek gara-gara di prank</p>
+                                <h4 className='text-white text-2xl'>Selamat Ulang Tahun Ayuu</h4>
+                                <p className='text-lg text-gray-400 leading-relaxed'>Jangan lupa senyum hari ini</p>
                             </div>
                     </div>
                 )}
